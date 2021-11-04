@@ -1,0 +1,39 @@
+.card{
+    @apply flex flex-col px-12 py-10 w-full sm:w-1/2;
+    @apply border-t-2 border-gray-200;
+    &:first-child{
+        @apply border-t-0;
+    }
+    @screen sm{
+        &:nth-child(-n+2){
+            @apply border-t-0;
+        }
+    }
+    &:nth-child(even){
+        @apply sm:border-l;
+    }
+    &:nth-child(odd){
+        @apply sm:border-r;
+    }
+    &__inner{
+        @apply flex flex-grow;
+    }
+    &__icon{
+        svg{
+            @apply h-8 w-8 md:h-10 md:w-10 md:-my-1;
+        }
+    }
+    &__content{
+        @apply flex flex-col ml-4 md:ml-6;
+        @apply leading-relaxed;
+        &__title{
+            @apply font-medium text-gray-800 text-lg;
+        }
+        &__description{
+            @apply text-gray-600 mt-1 text-sm md:text-base;
+        }
+        &__link{
+            @apply pt-1 mt-auto;
+        }
+    }
+}
