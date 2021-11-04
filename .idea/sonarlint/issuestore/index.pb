@@ -15,8 +15,6 @@ B
 conf/server.cert,5/b/5b357048a48d17bbb70604d0bfef405d260c8723
 A
 postcss.config.js,3/f/3f70684581fd16ab3be77ca959e0138ef3ee8bfb
-<
-package.json,7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
 G
 public/build/layout.css,d/a/daa95e39f5966fe386679afe34aaaee65117b6e8
 I
