@@ -37,8 +37,7 @@ To get started:
 4. Open `public/index.html` in your editor and start experimenting!
 
 ## Play with it on CodeSandbox
-
-A CodeSandbox version of this playground [is one click away](https://codesandbox.io/s/github/tailwindcss/playground/tree/master)!
+A CodeSandbox version of this playground [is one click away](https://codesandbox.io/s/github/arnaud-ritti/tailwind-playground/tree/master)!
 
 ## Building for production
 
